@@ -1,6 +1,6 @@
 #include "lib.h"
 
-bool funzione(int a, int i){
+int funzione(int a, int i){
     if (a%i==0){
         if (a==i)
         return true;
