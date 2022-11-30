@@ -1,1 +1,1 @@
-int primo(int);
+bool funzione(int, int);
