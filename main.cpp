@@ -1,14 +1,13 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
-int main() {
+
+int main(){
     int a;
-    cin >>a;
-    if (primo(a)==1){
-        cout <<"numero non primo";
-    }
-    else{
-        cout << "numero primo";
-    }
+    cin>>a;
+    if(funzione(a)==true)
+        cout<<"numero primo";
+    else
+        cout<<"numero non primo";
     return 0;
 }
