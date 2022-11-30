@@ -1,15 +1,11 @@
 #include "lib.h"
-int primo(int a) {
-    int b = a - 1;
-    do {
-        int c;
-        c = a % b;
-        if (c == 0 ) {
-            return 1;
-        } else {
-            b--;
-        }
-    } while (b>1);
-    return 0;
 
+bool funzione(int a, int i){
+    if (a%i==0){
+        if (a==i)
+        return true;
+        else
+            return false;}
+    else
+        funzione(a, i+1);
 }
