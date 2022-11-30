@@ -3,9 +3,9 @@
 int funzione(int a, int i){
     if (a%i==0){
         if (a==i)
-        return true;
+        return 1;
         else
-            return false;}
+            return 0;}
     else
         funzione(a, i+1);
 }
