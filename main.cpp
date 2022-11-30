@@ -3,11 +3,10 @@
 using namespace std;
 
 int main(){
-    int a;
-    cin>>a;
-    if(funzione(a)==true)
+    int numero;
+    cin>>numero;
+    if (funzione(numero,2)==true)
         cout<<"numero primo";
-    else
-        cout<<"numero non primo";
+    else cout<<"numero non primo";
     return 0;
 }
