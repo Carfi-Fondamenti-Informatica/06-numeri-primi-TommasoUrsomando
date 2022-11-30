@@ -5,10 +5,10 @@ int main() {
     int a;
     cin >>a;
     if (primo(a)==1){
-        cout <<"non primo";
+        cout <<"numero non primo";
     }
     else{
-        cout << "primo";
+        cout << "numero primo";
     }
     return 0;
 }
